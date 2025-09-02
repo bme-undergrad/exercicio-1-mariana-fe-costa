@@ -21,7 +21,8 @@ for ii = 1:length(t)-1
   endif
   t(ii+1) = t(ii) - func(t(ii))/func_d(t(ii));
 endfor
-t = t(ii);
+
+t=t(ii);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
